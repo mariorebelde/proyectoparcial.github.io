@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica de sistemas</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../deplegable.css">
+    <link rel="stylesheet" href="../estilopag.css">
+</head>
+
+
+<nav class="nav">
+
+    <div class="nav__container">
+
+        <a href="../Index.html" class="back"><h1 class="nav__title">Logica de Sistemas</h1></a>
+
+        <a href="#menu" class="nav__menu">
+            <img src="../assets/menu.svg" class="nav__icon">
+        </a>
+
+        <a href="#" class="nav__menu nav__menu--second">
+            <img src="../assets/close.svg" class="nav__icon ">
+        </a>
+
+        <ul class="dropdown" id="menu">
+
+            <li class="dropdown__list">
+                <a href="../Index.html" class="dropdown__link">
+                    <img src="../assets/house.svg" class="dropdown__icon">
+                    <span class="dropdown__span">Inicio</span>
+                </a>
+            </li>
+
+            <li class="dropdown__list">
+                <a href="#" class="dropdown__link">
+                    <img src="../assets/projects.svg" class="dropdown__icon">
+                    <span class="dropdown__span">Primer Parcial</span>
+                    <img src="../assets/down.svg" class="dropdown__arrow">
+
+                    <input type="checkbox" class="dropdown__check">
+                </a>
+
+                <div class="dropdown__content">
+
+                    <ul class="dropdown__sub">
+
+                        <li class="dropdown__li">
+                            <a href="../IntroLog.html" class="dropdown__anchor">Introduccion a la Logica</a>
+                        </li>
+                        <li class="dropdown__li">
+                            <a href="../IntroSilo.html" class="dropdown__anchor">Silogismos</a>
+                        </li>
+                        <li class="dropdown__li">
+                            <a href="../IntroTeoCon.html" class="dropdown__anchor">Teoria de Conjuntos</a>
+                        </li>
+                        <li class="dropdown__li">
+                            <a href="../IntroLogProp.html" class="dropdown__anchor">Logica proposicional</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </li>
+
+            <li class="dropdown__list">
+                <a href="#" class="dropdown__link">
+                    <img src="../assets/projects.svg" class="dropdown__icon">
+                    <span class="dropdown__span">Segundo Parcial</span>
+                    <img src="../assets/down.svg" class="dropdown__arrow">
+                    <input type="checkbox" class="dropdown__check">
+                </a>
+
+                <div class="dropdown__content">
+
+                    <ul class="dropdown__sub">
+
+                        <li class="dropdown__li">
+                            <a href="../segundoparcial/IntroDeduNat.html" class="dropdown__anchor">Deduccion Natural</a>
+                        </li>
+                        <li class="dropdown__li">
+                            <a href="../segundoparcial/IntroDedAbs.html" class="dropdown__anchor">Reduccion al absurdo</a>
+                        </li>
+                        <li class="dropdown__li">
+                            <a href="../segundoparcial/IntroSimpli.html" class="dropdown__anchor">Simplificacion</a>
+                        </li>
+                      
+
+                    </ul>
+
+                </div>
+            </li>
+
+            <li class="dropdown__list">
+                <a href="#" class="dropdown__link">
+                    <img src="../assets/projects.svg" class="dropdown__icon">
+                    <span class="dropdown__span">Examen Final</span>
+                    <img src="../assets/down.svg" class="dropdown__arrow">
+                    <input type="checkbox" class="dropdown__check">
+                </a>
+                <div class="dropdown__content">
+
+                    <ul class="dropdown__sub">
+
+                        <li class="dropdown__li">
+                            <a href="../ExamenFinal/IntroAlgbo.html" class="dropdown__anchor">Algebra de boole</a>
+                        </li>
+                        <li class="dropdown__li">
+                            <a href="../ExamenFinal/IntroFuncbo.html" class="dropdown__anchor">Funciones booleanas</a>
+                        </li>
+                      
+
+                    </ul>
+
+                </div>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+<body>
+
+    <div class="titulo">
+        <h1>Reduccion a lo Absurdo</h1>
+    </div>
+
+    <div class="infoP">
+        <p>Reductio ad absurdum. Expresión latina que significa
+            literalmente “reducción al absurdo”, es uno de los métodos
+            lógicos de demostración más usado en matemáticas para
+            demostrar la validez (o invalidez) de proposiciones categóricas.</p>
+    </div>
+
+    <div class="Contenido">
+        <p>El método de reducción al absurdo consiste en suponer que el
+            resultado a demostrar es falso y llegar, a partir de ahí, a una
+            contradicción</p>
+        <p>La validez de un razonamiento, implica que todas sus
+            premisas (necesariamente) sean derivadas hasta llegar a la
+            conclusión, si un razonamiento posee premisas verdaderas y
+            conclusión falsa, entonces ese argumento tiene una forma
+            invalida. Se puede demostrar la INVALIDEZ (contrario a
+            demostrar la validez) de un razonamiento deductivo si
+            haciendo la conclusión falsa, resultan sus premisas verdaderas</p>
+    </div>
+
+    <div class="Contenido">
+        <h2>Procedimiento</h2>
+        <p>Paso1: Dar a la letra de la conclusion valores de verdad que hagan que esta se convierta en FALSA.</p>
+        <p>Paso 2: Trasladar esos valores de verdad hacia la letra en las premisas, la cual corresponda a la misma letra de la conclusion.</p>
+        <p>Paso 3: Asignar al resto de letras valores de verdad que hagan cada premisa VERDADERA, de esta forma buscamos que todas las premisas sean verdaderas y la conclusión falsa.</p>
+        <p>Paso 4: De lograrse el paso 3 hay dos opciones, Premisas verdaderas y conclusion falsa es razonamiento INVALIDO; caso contrario, si no es posible colocar una de las premisas verdaderas y conclusion falsa el razonamiento es VALIDO.</p>
+        <br>
+        <p>Argumento INVALIDO</p>
+        <p>PM1 -> V</p>
+        <p>PM2 -> V</p>
+        <p>PM3 -> V</p>
+        <p>Conclusion -> F</p>
+    </div>
+
+
+
+    <div class="Contenido">
+        <h2>Reglas</h2>
+        <p>Reglas utilizadas para obtener la validez en los argumentos</p>
+        <img src="../imagenes/reglas de inferencias.jpg" >
+        <img src="../imagenes/reglas de reemplazzo.jpg" alt="">
+    </div>
+
+    <div class="Contenido">
+        <h2>Aplicacion en la Ingeniería</h2>
+        <p>1. Desarrollar habilidades para resolver problemas, a través de laelaboración de argumentos validos con métodos formales.</p>
+        <p>2. Algoritmos básicos de programación, desarrollo de lenguajes deprogramación.</p>
+        <p>3. Base fundamental para creación de sistemas digitales.</p>
+        <p>4. Inteligencia Artificial.</p>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="infoper">
+            <p>MARIO ALBERTO HERNANDEZ GARCIA</p>
+            <P>5090-23-1503</P>
+        </div>
+        <div class="logo">
+            <a href="https://www.umg.edu.gt">
+            <img src="../imagenes/logo mariano.png" class="logom">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice</title>
+    <link rel="stylesheet" href="estiloindex.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="deplegable.css">
+</head>
+
+    <nav class="nav">
+
+        <div class="nav__container">
+
+            <a href="Index.html" class="back"><h1 class="nav__title">Logica de Sistemas</h1></a>
+
+            <a href="#menu" class="nav__menu">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__menu nav__menu--second">
+                <img src="./assets/close.svg" class="nav__icon ">
+            </a>
+
+            <ul class="dropdown" id="menu">
+
+                <li class="dropdown__list">
+                    <a href="Index.html" class="dropdown__link">
+                        <img src="./assets/house.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Inicio</span>
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Primer Parcial</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="primerparcial/IntroLog.html" class="dropdown__anchor">Introduccion a la Logica</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="./primerparcial/IntroSilo.html" class="dropdown__anchor">Silogismos</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="./primerparcial/IntroTeoCon.html" class="dropdown__anchor">Teoria de Conjuntos</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="./primerparcial/IntroLogProp.html" class="dropdown__anchor">Logica proposicional</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Segundo Parcial</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="./segundoparcial/IntroDeduNat.html" class="dropdown__anchor">Deduccion Natural</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="./segundoparcial/IntroDedAbs.html" class="dropdown__anchor">Reduccion al absurdo</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="./segundoparcial/IntroSimpli.html" class="dropdown__anchor">Simplificacion</a>
+                            </li>
+                          
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Examen Final</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="./ExamenFinal/IntroAlgbo.html" class="dropdown__anchor">Algebra de boole</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="./ExamenFinal/IntroFuncbo.html" class="dropdown__anchor">Funciones booleanas</a>
+                            </li>
+                          
+
+                        </ul>
+
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+<body>
+
+    
+
+    <div class="contentheader">
+
+        <h1 class="title">Logica de sistemas</h1>
+        <div class="intro">
+            <p>En el curso se introduce a los estudiantes en los principios de estudio de las características
+                y propiedades fundamentales de los sistemas lógicos tradicionales: la lógica de
+                proposiciones y la lógica de predicados, relacionando estos conceptos con los modelos
+                matemáticos para la resolución de problemas de manera lógica.</p>
+        </div>
+    </div>
+
+        <h2 class="indice">Índice de temas</h2>
+
+    <div class="links">
+        <div class="deplegable">
+            <button class="boton">Primer parcial</button>
+            <div class="contenido">
+            <a href="primerparcial/IntroLog.html">Introduccion a la logica</a>
+            <a href="primerparcial/IntroSilo.html">Silogismos</a>
+            <a href="primerparcial/IntroTeoCon.html">Teoria de conjuntos</a>
+            <a href="primerparcial/IntroLogProp.html">Logica proposicional</a>
+            </div>
+        </div>
+
+        <div class="deplegable">
+            <button class="boton">Segundo parcial</button>
+            <div class="contenido">
+            <a href="segundoparcial/IntroDeduNat.html">Deduccion Natural</a>
+            <a href="segundoparcial/IntroDedAbs.html">Reduccion al abusurdo</a>
+            <a href="segundoparcial/IntroSimpli.html">Simplificacion</a>
+            </div>
+        </div>
+
+        <div class="deplegable">
+            <button class="boton">Examen Final</button>
+            <div class="contenido">
+            <a href="ExamenFinal/IntroAlgbo.html">Álgebra de boole</a>
+            <a href="ExamenFinal/IntroFuncbo.html">Funciones booleanas</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="infoper">
+            <p>MARIO ALBERTO HERNANDEZ GARCIA</p>
+            <P>5090-23-1503</P>
+        </div>
+        <div class="logo">
+            <a href="https://www.umg.edu.gt">
+            <img src="imagenes/logo mariano.png" class="logom">
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+</html>

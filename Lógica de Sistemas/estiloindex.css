@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 40px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: none;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 200px;
+    font-size: 25px;
+}
+
+.intro p{
+    padding: 15px 40px;
+}
+
+.sub{
+    margin-bottom: 40px;
+    font: 2rem;
+}
+
+.content{
+    height: 50hv;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pm{
+    margin: 20px;
+    font-size: 40px;
+}
+
+.primerparcial{
+    margin: 5px 90px;
+    border: 5px solid black;
+    border-width: 3px 0px 3px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.primerparcial a{
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.sp{
+    margin: 20px;
+    font-size: 40px;
+}
+
+.segundoparcial{
+    margin: 5px 90px;
+    border: 5px solid black;
+    border-width: 0px 0px 3px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.segundoparcial a{
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.ef{
+    margin: 20px;
+    font-size: 40px;
+}
+
+.examenfinal{
+    margin: 5px 90px;
+    border: 5px solid black;
+    border-width: 0px 0px 3px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.examenfinal a{
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 100px;
+
+}
+
+.infoper{
+    padding:  20px 50px;
+}
+
+.logo{
+    padding: 20px 50px;
+
+}
+.logom{
+    width: 100px;
+    height: 100px;
+}
